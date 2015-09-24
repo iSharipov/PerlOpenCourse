@@ -1,1 +1,0 @@
-perl -e 'use strict;my $filename="file";my $row_counter;open(my $fh,"<:utf8",$filename) or die "Cant open $filename: $!";while(<$fh>){$row_counter++;@a = split /:/, $_;for(my $i;$i<(0+@a);$i++){if($a[$i]>10){print "$row_counter\n";print $i+1;print "\n";print "----\n"}}}'
