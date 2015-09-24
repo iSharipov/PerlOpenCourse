@@ -1,0 +1,2 @@
+ls -l | perl -e 'use strict;my $all_counter=0;my $more_one_mb;while(<>){$all_counter++;my @a = split /\s+/, $_; if($a[4]>1000000){$more_one_mb++;print $_}};print "$all_counter\n";print "$more_one_mb\n"'
+
