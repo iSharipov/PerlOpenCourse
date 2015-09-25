@@ -1,0 +1,1 @@
+perl -MData::Dumper -lanF: -e 'for(my $i; $i<@F;$i++){$arr[$.-1][$i] = $F[$i]}; END { print Dumper @arr} ' file

@@ -1,0 +1,2 @@
+ls -l | perl -lanF'/\s+/' -e 'if($F[4]>1000000){$counter++;print $F[8]}; END {print "$. $counter"}'
+

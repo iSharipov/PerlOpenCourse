@@ -1,0 +1,1 @@
+perl -lanF: -e 'use strict;for(my $i;$i<(0+@F);$i++){if($F[$i]>10){print "$.";print $i+1;print "----"}}' file
