@@ -11,12 +11,4 @@ while(<$fh>){
 	}
 	$row_counter++;
 }
-
-#for $outerloop (0..4) {  
-#     for $innerloop (0..4) {  
-#          $arr[$outerloop][$innerloop] = 1;  
-#     }  
-#}
-  
-#print $arr[0][0];  
-print Dumper @arr;
+print Dumper @arr
